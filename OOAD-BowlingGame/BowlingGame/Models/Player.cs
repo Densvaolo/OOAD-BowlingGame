@@ -11,12 +11,14 @@ namespace OOAD_BowlingGame.BowlingGame.Models
         public string Name { get; set; }
         public int Score { get; set; }
 
-        public Player (string name)
+        public Player(string name)
         {
-            Name = name;
-            Score = 0;
+            {
+                Name = name;
+                Score = 0; // null, 
+            }
         }
+
+
     }
-
-
 }

@@ -1,10 +1,5 @@
 ﻿using OOAD_BowlingGame.BowlingGame.Factories;
 using OOAD_BowlingGame.BowlingGame.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OOAD_BowlingGame.BowlingGame.Services
 {
@@ -49,12 +44,11 @@ namespace OOAD_BowlingGame.BowlingGame.Services
             {
                 StartGame();
             }
-            else
+            else 
             {
                 Console.WriteLine("Tack för att du spelade");
+               
             }
-            
-
             
         }
     }
